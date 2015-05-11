@@ -1,0 +1,452 @@
+
+/**
+ Begin Reset 
+ */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+a, a:hover{
+	text-decoration: none;
+}
+
+*{
+	margin:0px;
+	padding:0px;
+	outline:none;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+/**
+ End Reset 
+ */
+
+html{
+	font:14px/18px Tahoma, Arial, sans-serif;
+	background-color:#f3f3f3;
+	height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+  
+}
+
+body{
+	height:100%;
+	font:14px/18px Arial, Tahoma, sans-serif;
+	background-color:#f3f3f3;
+	position:relative; 
+}
+
+.clearfix:before, .clearfix:after{
+	content: "";
+	display: table;
+}
+
+.clearfix:after{clear:both;}
+
+.left{float:left;};
+.right{float:right;}
+
+.container{
+	width: 1140px;
+	margin:0 auto;
+	padding:0px;
+}
+#header{
+	position:absolute;
+	left:0;
+	right:0;
+	width:100%;
+	height: 70px;
+	background-color: #fff;
+}
+#page{
+	min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  background: #f3f3f3;
+   
+}
+
+#wrapper{
+	border:1px solid #fff;
+	padding-bottom: 100px;
+}
+
+.logo{
+	float:left;
+	padding-top:20px;
+	
+}
+.nav{
+	float:right;
+	padding-right:150px;
+}
+
+.nav li{
+	float: left;
+	margin-right:70px;
+	margin-top: 26px;
+}
+
+.nav li:last-child{
+	float: left;
+	margin-top: 26px;
+	margin-right:0px;
+
+}
+
+.nav a{
+	text-transform: uppercase;
+	font:14px Tahoma, Arial, sans-serif;
+	color:#333;
+}
+
+#home{
+	height: 522px;
+	border:1px solid #fff;
+	margin-top:70px;
+	background:#222 url(../img/homebg.jpg) no-repeat 50% 33%;
+/*	-webkit-background-size:cover;
+	-moz-box-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;*/
+	background-size: 100% 1000px;
+}
+
+#slogan-wrap{
+	margin:116px auto 0px auto;
+	
+}
+
+#slogan-one, #slogan-two{
+	font:36px Tahoma, Arial, sans-serif;	
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align:center;
+	background-color:#000;
+	opacity: 0.7; /* Полупрозрачный фон */
+	filter: alpha(Opacity=70); /* Прозрачность в IE */
+	color:#fff; 
+	padding:5px 15px;
+}
+#slogan-two{
+	font-size: 24px;
+	margin-top: 2px;
+}
+
+#button-ceny{
+	display: block;
+	width:290px;
+	border-radius: 3px;
+	font:14px Tahoma, Arial, sans-serif;
+	color:#fff;
+	text-transform: uppercase;
+	margin: 11px auto 0px auto;
+	padding:15px 0px 15px 69px;
+	background: #212121 url(../img/euro_img.png) no-repeat 13% center;
+		
+}
+
+#menu-wrap{
+	border:0px solid green;
+	margin:118px auto 0px auto;
+	clear:both;
+	
+
+}
+
+
+
+#line-wrap{
+	position: relative;
+	top:-45px;
+}
+
+#linebefore{
+	width:480px;
+	border-top:1px solid #707077;
+	position:absolute;
+}
+
+#nasi-prodykti{
+	margin:0 500px;
+	position:absolute;
+	top:-12px;
+	font:14px Tahoma, Arial, sans-serif;
+	color:#fff;
+	
+}
+
+#lineafter{
+	border-top:1px solid #707077;
+	position:absolute;
+	left:600px;
+	width:540px;
+}
+
+ul.nav_second {
+	background-color:#fff;
+	margin:25px auto 0px auto;
+	padding: 0px;
+}	
+				
+
+
+.nav_second li{
+	border-right: 1px solid #464c51;
+	background-color:#fff;
+	padding:20px 53px;
+	float:left;
+	margin:0px;
+}	
+
+.nav_second a{
+	text-transform: uppercase;
+	font:13px Tahoma, Arial, sans-serif;
+	color:#464c51;
+	font-weight: bold;
+}
+
+.nav_second li:last-child{
+	padding-right:10px;
+	border-right: 0px solid #464c51;
+
+}
+
+/* Дополнительные стили карусели*/
+
+
+
+.carusel img{
+	height: 254px;
+	width:362px;
+	margin:0 auto;
+}
+
+
+
+div.third{
+	padding-right: 0px;
+}
+
+.slick-dots{
+	bottom: -20px;
+}/* Конец дополнительные стили карусели*/
+
+
+/* Cтили слогана*/
+#promo{
+	height:60px;
+	background-color: #fff;
+	position: relative;
+}
+
+#left{
+	text-transform: uppercase;
+	font:14px Tahoma, Arial, sans-serif;
+	font-weight: bold;
+	background-color: #eb4200;
+	padding:20px 112px;
+	color:#fff;
+	position: absolute;
+
+}
+
+#right{
+	font:14px Tahoma, Arial, sans-serif;
+	padding:25px 112px;
+	color:#555;
+	position: absolute;
+	left:510px;
+}
+
+#parallelogram {
+    width: 150px;
+    height:58px;
+    -webkit-transform: skew(-20deg);
+       -moz-transform: skew(-20deg);
+         -o-transform: skew(-20deg);
+    background: #eb4200;
+   position: absolute;
+   left:400px;
+
+}
+
+/* Конец Cтили слогана*/
+
+/* Cтили текстового блока*/
+
+#content{
+	clear:both;
+
+}
+
+#text_block{
+	position:relative;
+	font:14px Tahoma, Arial, sans-serif;
+	clear:both;
+}
+
+#text_block_left{
+	width:570px;
+	height:362px;
+	position:absolute;
+}
+
+#text_block_right{
+	width:570px;
+	height:362px;
+	position:absolute;
+	left:570px;
+}
+
+#text_block_wrap{
+	margin:50px 10px 10px 10px;
+	}
+#text_block_wrap h4{
+	color:#444;
+
+}
+
+ h4#otstup{
+	
+	margin-top:30px;
+
+}
+
+#text_block_wrap p{
+	color:#707077;
+}
+
+
+
+/* Конец текстового блока*/
+
+
+/* Начало футера*/
+
+#footer{
+	
+	font:14px Tahoma, Arial, sans-serif;
+	height: 130px;
+    margin-top: -100px;
+    background: #939494;
+    position: relative;
+    bottom:-350px;
+	}
+
+#top_footer ul{
+	height: 74px;
+	border-bottom: 1px solid #a6a6a6;
+}
+
+#top_footer li{
+	height: 74px;
+	float: left;
+	margin-right:50px;
+	margin-top: 26px;
+	
+
+}
+
+
+#top_footer li a{
+	color:#fff;
+}
+
+li#becker_logo {
+	width:225px;
+	height:48px;
+	text-align: right;
+	font:11px Tahoma, Arial, sans-serif;
+	margin-right: 90px;
+}
+#becker_logo img{
+	display: block;
+	float:left;
+}
+
+li#phone{
+	width:auto;
+	height:48px;
+	text-align: right;
+	font:14px Tahoma, Arial, sans-serif;
+	margin-right: 10px;
+
+}
+
+#phone img{
+	display: block;
+	float:left;
+	padding-right:7px;
+}
+
+#letter img{
+	display: block;
+	float:left;
+	padding-right:7px;
+}
+
+li#list{
+	text-transform: uppercase;
+}
+
+#top_footer li:last-child{
+	margin-right: 0px;
+}
+
+li#facebook_img{
+	width:145px;
+	height:73px;
+}
+
+#bottom_footer{
+	background: #939494;
+	font:11px Tahoma, Arial, sans-serif;
+	color:#fff;
+}
+
+/* Конец футера*/
